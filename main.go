@@ -28,3 +28,14 @@ func (s*Stack) isEmpty() bool{
 func (s*Stack) Size() int {
 	return s.Count
 }
+
+func (s*Stack) Pop() Node{
+	var nodeAux Node 
+	if s.isEmpty(){
+		return nodeAux
+	}
+	s.Count--
+	nodeAux = *s.Top
+	s.Top = nodeAux.Previous
+	return nodeAux
+}
