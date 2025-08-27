@@ -1,2 +1,2 @@
 # Atividade feita em golang
-### onde estou fazendo uma atividade para entender Uma pilha de informções
+### onde estou fazendo uma atividade para entender como funciona a pilha de informções
